@@ -40,4 +40,24 @@
         android:layout_toRightOf="@id/button_toast"/>
 
 
+    <Button
+        android:id="@+id/button_browser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3DCE0C"
+        android:text="@string/button_label_browser"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@id/button_count"/>
+
+
+
+    <Button
+        android:id="@+id/button_switchpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3DCE0C"
+        android:text="@string/button_label_pindah"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/button_browser"
+        app:cornerRadius="20dp" />
 </RelativeLayout>
